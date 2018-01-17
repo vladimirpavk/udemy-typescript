@@ -1,0 +1,5 @@
+node_modules
+**/*.js
+**/*.js.map
+npm-debug*
+**/*.d.ts

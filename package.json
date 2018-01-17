@@ -1,0 +1,27 @@
+{
+  "name": "udemy-typescript",
+  "version": "0.0.1",
+  "description": "Udemy Understanding TypeScript development enviroment",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"tsc -w\" \"lite-server\"",
+    "start": "concurrently \"tsc -w\" \"nodemon app.js\""
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "lite-server": "^2.3.0",
+    "nodemon": "^1.14.11",
+    "typescript": "^2.3.0"
+  },
+  "keywords": [
+    "udemy",
+    "Typescript",
+    "enviroment"
+  ],
+  "author": "Vladimir Pavkovic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladimirpavk/udemy-typescript.git"
+  }
+}
