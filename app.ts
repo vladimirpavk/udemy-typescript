@@ -64,6 +64,10 @@ let bankAccount1 :ba  = {
         this.money += value;
         console.log("money" + this.money);
     }
+    //if write this way then its out of context
+    //deposit: (value:number)=>{
+        //this.money+=value;
+        //}
 }
 
 let myself: { name:string, bankAccount: ba, hobbies: string[] } = {
