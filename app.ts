@@ -81,7 +81,12 @@ console.log(myself);
 
 console.log("vlada");
 
+//noUnusedParameters compiler option example
+function unUsedParam(x: number, y:number){
+    return x*2;
+}
 
-
-
+console.log("DEFAULT ARROW FUNCTION PARAMETERS");
+const zb=(a:number, b:number=10)=>{ return a+b };
+console.log(zb(10));
 
