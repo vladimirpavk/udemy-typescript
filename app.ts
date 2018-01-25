@@ -90,3 +90,38 @@ console.log("DEFAULT ARROW FUNCTION PARAMETERS");
 const zb=(a:number, b:number=10)=>{ return a+b };
 console.log(zb(10));
 
+console.log("DESTRUCTURING ARRAYS");
+const myNiz=["vrednost1", "vrednost2"];
+const [myProm1, myProm2]=myNiz;
+console.log(myProm1+","+myProm2);
+
+console.log("DESTRUCTURING OBJECTS");
+const myObject={ userName: "Vladimir", age: 40 };
+//const {userName, age} = myObject;
+//console.log(userName, age);
+//or can use aliases
+const { userName: myUserName, age: myAge } = myObject;
+console.log(myUserName, myAge);
+
+//Template literals
+const ime:string="Vladimir";
+const templateLiteral:string=`Moje ime je 
+${ime}`;
+console.log(templateLiteral);
+
+console.log("EXERCISE: SECTION 4");
+
+const double:(value:number)=>number = (value:number)=> value*2;
+//console.log(double(5));
+
+const greet:(name:string)=>void = (name:string="Max")=>{
+    console.log(name);
+}
+greet();
+
+var numbers = [-3, 33, 38, 5];
+console.log(Math.min.apply(Math, numbers));
+console.log(Math.min(...numbers));
+
+
+
