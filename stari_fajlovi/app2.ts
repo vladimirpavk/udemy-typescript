@@ -128,5 +128,3 @@ const makeArray:(...args:number[])=>number[] = (...args:number[])=>{
 }
 
 console.log(makeArray(5,2,3,1,4,5,6,7));
-
-

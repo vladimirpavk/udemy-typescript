@@ -1,8 +1,17 @@
 <head>
     <title>Udemy Understanding Typescript Course</title>
-    <script src="app.js"></script>
+    <!-- <script src="app.js"></script> -->
+    <!-- Now using SystemJS -->
+    <script src="./node_modules/systemjs/dist/system.js"></script>
 </head>
 
 <body>
+    <script>
+        SystemJS.config({
+            baseUrl: '/',
+            defaultExtension: 'js'
+        });
+        SystemJS.import('app.js');
+    </script>
     
 </body>

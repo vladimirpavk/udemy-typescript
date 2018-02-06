@@ -4,8 +4,9 @@
   "description": "Udemy Understanding TypeScript development enviroment",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently \"tsc -w\" \"lite-server\"",
-    "start": "concurrently \"tsc -w\" \"nodemon app.js\""
+    "dev": "concurrently \"tsc -w -p .\" \"lite-server\"",
+    "start": "concurrently \"tsc -w -p .\" \"nodemon app.js\"",
+    "liteserver": "lite-server"
   },
   "devDependencies": {
     "concurrently": "^3.5.0",
@@ -23,5 +24,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/vladimirpavk/udemy-typescript.git"
+  },
+  "dependencies": {
+    "systemjs": "^0.21.0"
   }
 }
