@@ -7,11 +7,14 @@
 
 <body>
     <script>
-        SystemJS.config({
-            baseUrl: '/',
-            defaultExtension: 'js'
-        });
-        SystemJS.import('app.js');
+        System.config({
+            packages:{         
+                "/mymodules/math":{
+                    defaultExtension: 'js'
+                }
+            }
+        })
+        System.import('app.js');
     </script>
     
 </body>
