@@ -16,8 +16,6 @@
         "node_modules"
     ],
     "files": [
-      "app",
-      "./mymodules/math/circle",
-      "./mymodules/math/rectangle"
+      "app"
     ]
   }
