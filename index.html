@@ -1,11 +1,16 @@
 <head>
-    <title>Udemy Understanding Typescript Course</title>
+    <title>React + TypeScript</title>
     <!-- <script src="app.js"></script> -->
     <!-- Now using SystemJS -->
+    <!-- 
+        !!! NO NEED WHEN USING WEBPACK  !!!
     <script src="./node_modules/systemjs/dist/system.js"></script>
+    -->
 </head>
 
 <body>
+    <!-- 
+        !!! NO NEED WHEN USING WEBPACK  !!!
     <script>
         System.config({
             packages:{         
@@ -19,9 +24,14 @@
         })
         System.import('app.js');
     </script>
-    
+-->
+
     <div id="app">
         Application
-    </div>
+    </div> 
+
+    <script src="./dist/bundle.js"></script>
+
+
 
 </body>
