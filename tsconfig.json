@@ -3,7 +3,7 @@
       "target": "es5",
       "module": "system",
       //"moduleResolution": "node",
-      "tsx": "react",
+      "jsx": "react",
       "sourceMap": true,
       "emitDecoratorMetadata": true,
       "experimentalDecorators": true,
@@ -17,6 +17,8 @@
         "node_modules"
     ],
     "files": [
-      "app"
+      "app",
+      "./src/index.tsx",
+      "./src/components/home.tsx"
     ]
   }

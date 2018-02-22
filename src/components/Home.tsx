@@ -1,6 +1,6 @@
 import * as React from "react";
 
-interface HomeProps {
+export interface HomeProps {
     name: string,
     age: number
 }
