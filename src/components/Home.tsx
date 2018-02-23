@@ -5,7 +5,7 @@ export interface HomeProps {
     age: number
 }
 
-export class Home extends React.Component<HomeProps, {}>{
+export default class Home extends React.Component<HomeProps, {}>{
 
     render(){
         return(

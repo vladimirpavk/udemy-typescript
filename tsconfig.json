@@ -1,7 +1,8 @@
 {
     "compilerOptions": {
       "target": "es5",
-      "module": "system",
+      "module": "commonjs",
+     // "module": "system",
       //"moduleResolution": "node",
       "jsx": "react",
       "sourceMap": true,
@@ -17,7 +18,7 @@
         "node_modules"
     ],
     "files": [
-      "app",
+      //"app",
       "./src/index.tsx",
       "./src/components/home.tsx"
     ]
